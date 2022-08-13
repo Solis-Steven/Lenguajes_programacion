@@ -106,4 +106,15 @@ func main() {
 	lProductos.ordenar()
 	fmt.Println(lProductos)
 }
- 
+
+/*
+Result:
+[{arroz 15 2500} {frijoles 4 2000} {leche 8 1200} {café 12 4500}]
+[{arroz 9 2500} {frijoles 4 2000} {leche 8 1200} {café 12 4500}]
+[{arroz 9 2500} {frijoles 4 2000} {leche 8 1200} {café 12 4500} {azucar 20 1500}]
+[{arroz 9 2500} {leche 8 1200} {café 12 4500} {azucar 20 1500}]
+No se puede vender mayor cantidad de productos que los que hay en existencia     
+[{arroz 9 2500} {leche 8 1200}]
+[{arroz 10 2500} {leche 10 1200} {café 12 4500} {azucar 20 1500}]
+[{leche 10 1200} {azucar 20 1500} {arroz 10 2500} {café 12 4500}]
+*/
